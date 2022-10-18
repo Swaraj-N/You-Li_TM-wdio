@@ -1,0 +1,24 @@
+[
+    {
+        "Package_Name": "DummyPackage",
+        "Package_Type": "Family and Couples",
+        "Package_Location": "DummyLocation",
+        "Package_Price": "1",
+        "Package_Features": "DummyFeatures",
+        "Package_Details": "DummyDetails",
+        "Image": "C:\\Users\\SWARAJ-PC\\Pictures\\Camera Roll\\ben-guerin-NWrye3NRrKw-unsplash.jpg",
+        "CreateUserName": "User",
+        "CreatePassword": "U@",
+        "CreateEmail": "u@gamil.com",
+        "CreateMobileNumber": "987654",
+        "EquiryFull_Name":"Full",
+        "EnquiryEmail":"name@gmail.com",
+        "EnquiryMobile_Num":"123456",
+        "Subject":"Trip fare",
+        "EnquiryDescription":"Please tell me the cost of his Manali trip",
+        "Issue":"Booking Issues",
+        "Issuedescription":"I have Booking issue",
+        "Remark":"Remark Updated by Admin",
+        "Comment":"I am Booking this Package"
+    }
+]
