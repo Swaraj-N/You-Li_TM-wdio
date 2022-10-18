@@ -1,0 +1,193 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666096474142' stop='1666096515613'>
+    <name>Create User and Check Count</name>
+    <title>Create User and Check Count</title>
+    <test-cases>
+        <test-case start='1666096474143' status='broken' stop='1666096489044'>
+            <name>Navigating to the application</name>
+            <title>Navigating to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5e9cf0c4-129d-4f42-ab7f-28ebf6110a08-attachment.png' type='image/png' size='36842'/>
+            </attachments>
+            <failure>
+                <message>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>unknown error: unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:17:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096489045' status='broken' stop='1666096499531'>
+            <name>Login as Admin</name>
+            <title>Login as Admin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='254307d4-e67c-43a5-b2c0-62deca2623e8-attachment.png' type='image/png' size='36842'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//a[.='Admin Login']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//a[.='Admin Login']" because element wasn't found
+                    at implicitWait (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096499532' status='broken' stop='1666096510220'>
+            <name>Get the User Count</name>
+            <title>Get the User Count</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "//h3[.='User']/following-sibling::h4" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//h3[.='User']/following-sibling::h4" because element wasn't found
+                    at implicitWait (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:30:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096510221' status='broken' stop='1666096510351'>
+            <name>Navigate to application and Create a new User</name>
+            <title>Navigate to application and Create a new User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:42:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096510352' status='broken' stop='1666096515427'>
+            <name>Confirmation message Validation</name>
+            <title>Confirmation message Validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:47:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096515427' status='broken' stop='1666096515546'>
+            <name>Login as Admin to Verify Increased User Count</name>
+            <title>Login as Admin to Verify Increased User Count</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:57:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666096515546' status='broken' stop='1666096515611'>
+            <name>Get the updated User Count</name>
+            <title>Get the updated User Count</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SWARAJ-PC\Desktop\JS_You-Li_WdIO\test\specs\POITC-1.js:64:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

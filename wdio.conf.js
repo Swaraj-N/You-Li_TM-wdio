@@ -22,13 +22,13 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js',
+        './test/specs/**/*.js',
         // './test/specs/example.e2e.js',
-        './test/specs/POITC-1.js',
-        './test/specs/POITC-2.js',
-        './test/specs/POITC-3.js',
-        './test/specs/POITC-4.js',
-        './test/specs/POITC-5.js'
+        // './test/specs/POITC-1.js',
+        // './test/specs/POITC-2.js',
+        // './test/specs/POITC-3.js',
+        // './test/specs/POITC-4.js',
+        // './test/specs/POITC-5.js'
         // './test/specs/Test_Case-01.js',
         // './test/specs/Test_Case-02.js',
         // './test/specs/Test_Case-03.js',
