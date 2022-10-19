@@ -24,7 +24,7 @@ exports.config = {
     specs: [
         './test/specs/**/*.js',
         // './test/specs/example.e2e.js',
-        // './test/specs/POITC-1.js',
+        //'./test/specs/POITC-1.js'
         // './test/specs/POITC-2.js',
         // './test/specs/POITC-3.js',
         // './test/specs/POITC-4.js',
@@ -72,9 +72,12 @@ exports.config = {
         maxInstances: 1,
         browserName: 'chrome',
         'goog:chromeOptions': {
-            prefs: {
+           excludeSwitches: ['enable-automation'],
+           prefs: {
                 'profile.managed_default_content_settings.popups': 1,
                 'profile.managed_default_content_settings.notifications': 1,
+                'credentials_enable_service': false,
+                'profile.password_manager_enabled': false,
             }
         },
         acceptInsecureCerts: true
@@ -87,7 +90,7 @@ exports.config = {
         //     maxInstances: 1,
         //     browserName: 'firefox',
         //     acceptInsecureCerts: true
-        //     // },
+        //     },
         //     {
         //         maxInstances: 1,
         //         browserName: 'chromiumedge',

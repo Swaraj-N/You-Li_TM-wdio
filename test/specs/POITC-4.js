@@ -97,8 +97,6 @@ describe(`Book package as user and verify as user and get status and confirm the
             await ufp.mytourhistory.click()
             await console.log(browser.getTitle());
             await expect(browser).toHaveTitle("TMS | Tourism Management System")
-            // const afterstatusofbooking = await ufp.afterstatusbooking(Comment+randomnumber)
-            // await console.log(afterstatusofbooking);
             await expect(ufp.afterstatusbooking(Comment+randomnumber)).toHaveText("Confirmed")
         })
     })
